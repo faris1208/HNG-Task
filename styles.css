@@ -110,6 +110,7 @@ footer {
 @media (min-width: 600px) {
     main {
         padding: 0px 40px;
+        border: 2px solid red;
     }
 
     .timeline-event {
@@ -122,8 +123,9 @@ footer {
         flex-direction: row;
         align-items: center;
         gap: 30px;
-        padding: 0px 40px;
+        /* padding: 0px 40px; */
         background-color: #fff;
+        border: 2px solid blueviolet;
     }
     
     [data-testid="profile-section"] {
@@ -151,17 +153,17 @@ footer {
         /* max-height: 400px; */
     }
 
-    [data-testid="goals-section"] {
+    /* [data-testid="goals-section"] {
         padding: 0px 40px;
-    }
+    } */
 
     [data-testid="goals-section"] h1 {
         font-size: 35px;
     }
 
-    [data-testid="timeline-section"] {
+    /* [data-testid="timeline-section"] {
         padding: 0px 40px;
-    }
+    } */
 
     [data-testid="timeline-section"] h1 {
         font-size: 35px;
