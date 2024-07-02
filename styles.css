@@ -110,7 +110,7 @@ footer {
 @media (min-width: 600px) {
     main {
         padding: 0px 40px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .timeline-event {
@@ -124,8 +124,8 @@ footer {
         align-items: center;
         gap: 30px;
         /* padding: 0px 40px; */
-        background-color: #fff;
-        border: 2px solid blueviolet;
+        /* background-color: #fff; */
+        /* border: 2px solid blueviolet; */
     }
     
     [data-testid="profile-section"] {
